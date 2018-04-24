@@ -1,0 +1,23 @@
+{
+  "name": "code-coverage-generator",
+  "version": "1.0.0",
+  "description": "Generate the code  coverage of the classes from a test run.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudhs2005/code-coverage-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirudhs2005/code-coverage-generator/issues"
+  },
+  "homepage": "https://github.com/anirudhs2005/code-coverage-generator#readme",
+  "dependencies": {
+    "sfdx-node": "0.0.1"
+  }
+}
