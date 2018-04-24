@@ -7,5 +7,7 @@ Generate the code  coverage of the classes from a test run.
 3. node login.js
 4. node runTests.js
 
+Check the output in the json format in testResult.json file.
+
 Currently holds a hardcoded test class. This is just a POC of how we can store the result
 

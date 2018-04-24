@@ -1,0 +1,47 @@
+{
+    "status": 0,
+    "result": {
+        "summary": {
+            "outcome": "Passed",
+            "testsRan": 1,
+            "passing": 1,
+            "failing": 0,
+            "skipped": 0,
+            "passRate": "100%",
+            "failRate": "0%",
+            "testStartTime": "Apr 24, 2018 12:32 PM",
+            "testExecutionTime": "8 ms",
+            "testTotalTime": "8 ms",
+            "commandTime": "3167 ms",
+            "hostname": "https://cs91.salesforce.com",
+            "orgId": "00D2F0000000PX4UAM",
+            "username": "asreerambhatla@deloitte.com.hsarpqtc1",
+            "testRunId": "7072F00000UdCIZ",
+            "userId": "0052F0000015QMhQAM"
+        },
+        "tests": [{
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v42.0/tooling/sobjects/ApexTestResult/07M2F000002rLWgUAM"
+            },
+            "Id": "07M2F000002rLWgUAM",
+            "QueueItemId": "7092F000000QNZ5QAO",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072F00000UdCIZQA3",
+            "MethodName": "testSiteLoginController",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v42.0/tooling/sobjects/ApexClass/01p4100000FhNIrAAN"
+                },
+                "Id": "01p4100000FhNIrAAN",
+                "Name": "SiteLoginControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 8,
+            "FullName": "SiteLoginControllerTest.testSiteLoginController"
+        }]
+    }
+}

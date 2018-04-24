@@ -11,13 +11,14 @@ async function generateTestClassReport(){
 		if(stderr){
 			throw {"message" : stderr};
 		}
+		//This is just POC code. Needs to be refactored to take into account the error conditions
 		const parsedstdOut = JSON.parse(stdout);
 		const {status, result} = parsedstdOut;
 		const {testRunId} = result;
 		console.log(`Test Run Id - ${testRunId}`);
 		console.log(`Computing Test Coverage - ${testRunId}`);
 		await exec(`sfdx force:apex:test:report -i ${testRunId} --json > ${fileName}`);
-		return '';
+		return `Created the file @ ${fileName}. `;
 	}catch(e){
 		throw e;
 	}
