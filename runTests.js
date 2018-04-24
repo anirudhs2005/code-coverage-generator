@@ -17,7 +17,7 @@ async function generateTestClassReport(){
 		const {testRunId} = result;
 		console.log(`Test Run Id - ${testRunId}`);
 		console.log(`Computing Test Coverage - ${testRunId}`);
-		await exec(`sfdx force:apex:test:report -i ${testRunId} --json > ${fileName}`);
+		await exec(`sfdx force:apex:test:report -i ${testRunId} -c --json > ${fileName}`);
 		return `Created the file @ ${fileName}. `;
 	}catch(e){
 		throw e;
